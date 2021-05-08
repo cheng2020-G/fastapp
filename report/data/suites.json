@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_get_token",
+      "children" : [ {
+        "name" : "TestGetToken",
+        "children" : [ {
+          "name" : "test_get_token",
+          "uid" : "6f718f7b8f255601",
+          "parentUid" : "d564524d0cb6cd6c6f36ab8b2c321c1a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1618052120681,
+            "stop" : 1618052180734,
+            "duration" : 60053
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d564524d0cb6cd6c6f36ab8b2c321c1a"
+      } ],
+      "uid" : "51cb083072219c543babdf1c53d22282"
+    } ],
+    "uid" : "7559db31629684e5f31176d189a833ac"
+  } ]
+}
