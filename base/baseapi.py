@@ -12,8 +12,8 @@ class BaseApi:
 #         "url": "http://www.baidu.com",
 #         "method": "get"
 #     }
-#     test = BaseApi().send(data)
-#     print(test)
-#     print(test.status_code)
-#     print(test.text)
-#     print(test.headers)
+#     res = BaseApi().send(data)
+#     print(res)
+#     print(res.status_code)
+#     print(res.text)
+#     print(res.headers)

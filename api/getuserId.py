@@ -1,5 +1,5 @@
-from base.baseapi import BaseApi
 import yaml
+from base.baseapi import BaseApi
 
 
 class GetUserId(BaseApi):
@@ -7,5 +7,7 @@ class GetUserId(BaseApi):
         data = yaml.safe_load(open('D:/script/fastapp/data/get_userId.yaml'))
         return self.send(data)
 
+# 调试
 # if __name__ == '__main__':
-#     GetUserId().get_user_id()
+#     res = GetUserId().get_user_id()
+#     print(res.json())

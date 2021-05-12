@@ -3,6 +3,7 @@ from basecase.basecase import BaseCase
 
 class TestGetToken(BaseCase):
     def test_get_token(self):
-        token= self.token.get_token()
-        print(token)
-        # assert self.token.get_token()
+        res = self.token.get_token()
+        print(res.json())
+        # token = res.json()['data']['result']['token']
+        # print(token)
