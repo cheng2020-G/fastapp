@@ -81,6 +81,8 @@ class TestCase:
         res = requests.post(url, headers=header, json=params)
         print(res.status_code)
         print(res.json())
+        token = res.json()['data']['result']['token']
+        print(token)
         # print(res.json()['data']['operList'][0]['id'])
         # print(res.json()['data']['operList'][0]['operationInfo']['id'])
         # print(res.json()['data']['operList'][0]['actUrl'])
