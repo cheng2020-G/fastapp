@@ -2,9 +2,9 @@ import yaml
 from base.baseapi import BaseApi
 
 
-class GetUserId(BaseApi):
-    def get_user_id(self):
-        data = yaml.safe_load(open('D:/script/fastapp/data/get_userId.yaml'))
+class LogIn(BaseApi):
+    def login(self):
+        data = yaml.safe_load(open('D:/script/fastapp/data/login.yaml'))
         return self.send(data)
 
 # 调试
