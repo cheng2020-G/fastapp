@@ -28,7 +28,7 @@ headers:
  Host: 95.kky.dzods.cn
  Accept-Encoding: gzip
  Connection: keep-alive
-params:
+json:
  validCode: 1234
  bindId: 15700000000
  accountType: 1

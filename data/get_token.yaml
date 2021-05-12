@@ -28,7 +28,7 @@ headers:
  Host: 95.kky.dzods.cn
  Accept-Encoding: gzip
  Connection: close
-params:
+json:
  appName: xsydb
  phoneNum: 15700000000
 
