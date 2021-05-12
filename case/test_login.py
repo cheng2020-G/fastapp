@@ -5,4 +5,4 @@ class TestLogIN(BaseCase):
     def test_login(self):
         res = self.login.login()
         print(res.json())
-        # assert res.status_code == 200
+        assert res.status_code == 200

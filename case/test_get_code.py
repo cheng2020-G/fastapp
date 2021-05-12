@@ -7,3 +7,4 @@ class TestGetCode(BaseCase):
         print(res.json())
         # token = res.json()['data']['result']['token']
         # print(token)
+        assert res.status_code == 200
