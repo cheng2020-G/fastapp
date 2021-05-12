@@ -87,4 +87,5 @@ class TestCase:
         # print(res.json()['data']['operList'][0]['actUrl'])
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
+        return token
         # assert res.json()['data']['operList'][0]['id'] == 378
