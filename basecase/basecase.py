@@ -1,8 +1,11 @@
 from api.bookdetails import BookDetails
+from api.chapter import Chapter
 from api.getcode import GetCode
+from api.lastchapter import LastChapter
 from api.login import LogIn
 from api.logout import LogOut
 from api.olduserlogin import OldUserLogin
+from api.recommendedbooks import RecommendedBooks
 from api.updateuserinfo import UpdateUserInfo
 from api.userauthorize import UserAuthorize
 from api.usercenter import UserCenter
@@ -19,3 +22,6 @@ class BaseCase:
         self.userauthorize = UserAuthorize()
         self.usercenter = UserCenter()
         self.bookdetails = BookDetails()
+        self.chapter = Chapter()
+        self.lastchapter = LastChapter()
+        self.recommendedbooks = RecommendedBooks()
