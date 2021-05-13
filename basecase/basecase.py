@@ -5,7 +5,10 @@ from api.lastchapter import LastChapter
 from api.login import LogIn
 from api.logout import LogOut
 from api.olduserlogin import OldUserLogin
+from api.rechargelist import RechargeList
 from api.recommendedbooks import RecommendedBooks
+from api.sendbook import SendBook
+from api.shelfclouds import ShelfClouds
 from api.updateuserinfo import UpdateUserInfo
 from api.userauthorize import UserAuthorize
 from api.usercenter import UserCenter
@@ -25,3 +28,6 @@ class BaseCase:
         self.chapter = Chapter()
         self.lastchapter = LastChapter()
         self.recommendedbooks = RecommendedBooks()
+        self.sendbook = SendBook()
+        self.shelfclouds = ShelfClouds()
+        self.rechargelist = RechargeList()
