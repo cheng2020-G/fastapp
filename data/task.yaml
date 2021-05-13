@@ -1,0 +1,34 @@
+method: post
+url: http://95.kky.dzods.cn/glory/fastapp/2141?ver=5502450&appVer=5.5.2.450
+headers:
+ utdidTmp: tmp_1615874327600AxgpeLJzHR
+ osvc: '29'
+ scw: '1080'
+ utdid: 8a295e1f0dcd475ac18c05ebc30683f3
+ pname: com.dianzhong.xgmfxs
+ osvn: '10'
+ channelCodeFee: KYY1000004
+ triggerTime: '20210316135847'
+ userId: '2030474'
+ readPref: '1'
+ scDistinctId: 1615874327537-6147661-0d109e5b509c3-2619848
+ t: pgDY3DZ1LH0UBviswPJ2+Q==
+ pfvc: '1078'
+ domain: '3'
+ sch: '2110'
+ model: YAL-AL10
+ pfvn: '1.078'
+ Accept-Language: zh-CN
+ brand: HONOR
+ channelCode: KYY1000004
+ user-agent: Mozilla/5.0 (Linux; Android 10; YAL-AL10 Build/HUAWEIYAL-AL10;)AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/18.0.1025 Mobile Safari/537.36 hap/1078/huawei com.huawei.fastapp/3.2.1.300 com.dianzhong.dzyd01/5.5.2.514 ({type:shortcut,packageName:com.huawei.android.launcher,extra:{scene:api}})
+ Content-Type: text/plain
+ charset: utf-8
+ Content-Length: '2'
+ Host: 95.kky.dzods.cn
+ Accept-Encoding: gzip
+ Connection: close
+json:
+ taskId: 86
+
+

@@ -1,3 +1,4 @@
+from api.adddesktop import AddDesktop
 from api.bookdetails import BookDetails
 from api.chapter import Chapter
 from api.getcode import GetCode
@@ -7,11 +8,14 @@ from api.logout import LogOut
 from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
+from api.readtime import ReadTime
 from api.rechargelist import RechargeList
 from api.rechargerecord import RechargeRecord
 from api.recommendedbooks import RecommendedBooks
 from api.sendbook import SendBook
 from api.shelfclouds import ShelfClouds
+from api.spendlist import SpendList
+from api.task import Task
 from api.updateuserinfo import UpdateUserInfo
 from api.userauthorize import UserAuthorize
 from api.usercenter import UserCenter
@@ -37,3 +41,7 @@ class BaseCase:
         self.order = Order()
         self.orderinform = OrderInform()
         self.rechargerecord = RechargeRecord()
+        self.spendlist = SpendList()
+        self.adddesktop = AddDesktop()
+        self.readtime = ReadTime()
+        self.task = Task()
