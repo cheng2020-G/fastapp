@@ -35,7 +35,6 @@ json:
  chapterId: 24759837
  uuid:
  pullMode:
- omap: '{\channel_name\:\签到页\,\column_id\:232,\trigger_time\:\20201216145842\,\channel_pos\:0,\content_type\:\2\,\content_id\:\11000000276\,\origin\:\qd\,\column_name\:\每日推荐阅读任务\,\action\:\2\,\channel_id\:\qd\,\column_pos\:3,\content_pos\:0}'
  isUpdate: 0
 
 
