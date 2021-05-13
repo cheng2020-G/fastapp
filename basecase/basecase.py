@@ -1,6 +1,7 @@
 from api.adddesktop import AddDesktop
 from api.bookdetails import BookDetails
 from api.chapter import Chapter
+from api.chapterpay import ChapterPay
 from api.getcode import GetCode
 from api.lastchapter import LastChapter
 from api.login import LogIn
@@ -8,6 +9,7 @@ from api.logout import LogOut
 from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
+from api.readbegin import ReadBegin
 from api.readtime import ReadTime
 from api.rechargelist import RechargeList
 from api.rechargerecord import RechargeRecord
@@ -45,3 +47,5 @@ class BaseCase:
         self.adddesktop = AddDesktop()
         self.readtime = ReadTime()
         self.task = Task()
+        self.readbegin = ReadBegin()
+        self.chapterpay = ChapterPay()
