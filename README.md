@@ -27,6 +27,7 @@
     --yaml文件中不能使用tab缩进，只能使用空格；
     --传参格式为：json
 
+6、result中存放使用pytest执行的测试结果，使用allure测试报告打开
 
 使用方法：
 1、直接在api层写相关接口，直接return结果；
