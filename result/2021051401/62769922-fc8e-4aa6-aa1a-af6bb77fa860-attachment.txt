@@ -1,0 +1,2 @@
+{'retCode': 0, 'isExpire': 1, 'data': {'code': 0, 'message': '登录成功', 'result': {'userId': '2041199', 'uName': '157****0000', 'uPhoto': '', 'token': 'KYYLT_2041199_r8gZNo5cyqHkETJ5UF8oRw==_YAL-AL10', 'tokenExpire': ''}}}
+KYYLT_2041199_r8gZNo5cyqHkETJ5UF8oRw==_YAL-AL10
