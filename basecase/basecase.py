@@ -3,6 +3,7 @@ from api.appstart import AppStart
 from api.bookdetails import BookDetails
 from api.bookhome import BookHome
 from api.category import CateGory
+from api.categoryseconf import CateGorySecond
 from api.chapter import Chapter
 from api.chapterpay import ChapterPay
 from api.getcode import GetCode
@@ -59,3 +60,4 @@ class BaseCase:
         self.appstart = AppStart()
         self.bookhome = BookHome()
         self.category = CateGory()
+        self.categorysecond = CateGorySecond()
