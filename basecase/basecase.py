@@ -13,6 +13,7 @@ from api.feedback import FeedBack
 from api.free import Free
 from api.freesecond import FreeSecond
 from api.fronterror import FrontError
+from api.get_coupon import GetCoupon
 from api.getcode import GetCode
 from api.lastchapter import LastChapter
 from api.localpush import LocalPush
@@ -80,3 +81,4 @@ class BaseCase:
         self.fronterror = FrontError()
         self.localpush = LocalPush()
         self.coupon = Coupon()
+        self.getcoupon = GetCoupon()
