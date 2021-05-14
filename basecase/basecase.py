@@ -16,6 +16,7 @@ from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
 from api.prestrain import PresTrain
+from api.rank import Rank
 from api.readbegin import ReadBegin
 from api.readhold import ReadHold
 from api.readtime import ReadTime
@@ -65,3 +66,4 @@ class BaseCase:
         self.categorysecond = CateGorySecond()
         self.free = Free()
         self.freesecond = FreeSecond()
+        self.rank = Rank()
