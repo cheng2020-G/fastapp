@@ -9,6 +9,7 @@ from api.logout import LogOut
 from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
+from api.prestrain import PresTrain
 from api.readbegin import ReadBegin
 from api.readtime import ReadTime
 from api.rechargelist import RechargeList
@@ -49,3 +50,4 @@ class BaseCase:
         self.task = Task()
         self.readbegin = ReadBegin()
         self.chapterpay = ChapterPay()
+        self.prestrain = PresTrain()
