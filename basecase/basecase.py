@@ -33,6 +33,7 @@ from api.rechargelist import RechargeList
 from api.rechargerecord import RechargeRecord
 from api.recommendedbooks import RecommendedBooks
 from api.sendbook import SendBook
+from api.sharecount import ShareCount
 from api.shelfclouds import ShelfClouds
 from api.sign import Sign
 from api.signin import SignIn
@@ -93,3 +94,4 @@ class BaseCase:
         self.sign = Sign()
         self.signin = SignIn()
         self.vipactivity = VipActivity()
+        self.sharecount = ShareCount()
