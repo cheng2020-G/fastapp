@@ -21,6 +21,7 @@ from api.logout import LogOut
 from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
+from api.position import Position
 from api.prestrain import PresTrain
 from api.push import Push
 from api.rank import Rank
@@ -83,3 +84,4 @@ class BaseCase:
         self.coupon = Coupon()
         self.getcoupon = GetCoupon()
         self.usercoupon = UserCoupon()
+        self.position = Position()
