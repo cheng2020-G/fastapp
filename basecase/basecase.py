@@ -1,4 +1,3 @@
-from api import coupon
 from api.adddesktop import AddDesktop
 from api.appstart import AppStart
 from api.appstartapi import AppStartApi
@@ -38,6 +37,7 @@ from api.task import Task
 from api.updateuserinfo import UpdateUserInfo
 from api.userauthorize import UserAuthorize
 from api.usercenter import UserCenter
+from api.usercoupon import UserCoupon
 
 
 class BaseCase:
@@ -82,3 +82,4 @@ class BaseCase:
         self.localpush = LocalPush()
         self.coupon = Coupon()
         self.getcoupon = GetCoupon()
+        self.usercoupon = UserCoupon()
