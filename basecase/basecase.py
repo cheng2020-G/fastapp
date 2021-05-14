@@ -35,6 +35,7 @@ from api.recommendedbooks import RecommendedBooks
 from api.sendbook import SendBook
 from api.shelfclouds import ShelfClouds
 from api.sign import Sign
+from api.signin import SignIn
 from api.spendlist import SpendList
 from api.task import Task
 from api.updateuserinfo import UpdateUserInfo
@@ -89,3 +90,4 @@ class BaseCase:
         self.position = Position()
         self.rechargeactivity = RechargeActivity()
         self.sign = Sign()
+        self.signin = SignIn()
