@@ -28,6 +28,7 @@ from api.rank import Rank
 from api.readbegin import ReadBegin
 from api.readhold import ReadHold
 from api.readtime import ReadTime
+from api.rechargeactivity import RechargeActivity
 from api.rechargelist import RechargeList
 from api.rechargerecord import RechargeRecord
 from api.recommendedbooks import RecommendedBooks
@@ -85,3 +86,4 @@ class BaseCase:
         self.getcoupon = GetCoupon()
         self.usercoupon = UserCoupon()
         self.position = Position()
+        self.rechargeactivity = RechargeActivity()

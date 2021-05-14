@@ -1,0 +1,33 @@
+method: post
+url: http://95.kky.dzods.cn/glory/fastapp/2402?ver=5502450&appVer=5.5.2.450
+headers:
+ connection: keep-alive
+ utdidTmp: 550a6e2b6ec2bbbb5f91e17423345031com.dianzhong.xgmfxs
+ osvc: '29'
+ scw: '1080'
+ utdid: 550a6e2b6ec2bbbb5f91e17423345031com.dianzhong.xgmfxs
+ pname: com.dianzhong.dzyd01
+ osvn: '10'
+ channelCodeFee: KYY1000002
+ userId: '2008134'
+ uuid:
+ readPref: '1'
+ scDistinctId: 1605260008749-1202043-02d87a01709d12-97003559
+ t:
+ pfvc: '1077'
+ domain: '3'
+ sch: '2400'
+ model: PCRM00
+ pfvn: 1.0.7.7
+ brand: OPPO
+ bookshelfStyle:
+ channelCode: DZ10010
+ user-agent: Mozilla/5.0 (Linux; Android 10; YAL-AL10 Build/HUAWEIYAL-AL10;)AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/18.0.1025 Mobile Safari/537.36 hap/1078/huawei com.huawei.fastapp/3.2.1.300 com.dianzhong.dzyd01/5.5.2.514 ({type:shortcut,packageName:com.huawei.android.launcher,extra:{scene:api}})
+ Content-Type: text/plain; charset=utf-8
+ Host: 95.kky.dzods.cn
+ Accept-Encoding: gzip
+ Connection: keep-alive
+ Content-Length: '184'
+ User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_25)
+json:
+ id: 718
