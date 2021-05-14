@@ -5,4 +5,5 @@ class TestTask(BaseCase):
     def test_task(self):
         res = self.task.task()
         print(res.json())
-        assert res.status_code== 200
+        print('requestId：' + res.headers['requestId'])
+        assert res.status_code == 200

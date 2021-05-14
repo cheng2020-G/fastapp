@@ -5,6 +5,7 @@ import re
 class TestGetCode(BaseCase):
     def test_get_code(self):
         res = self.getcode.get_code()
+        print('requestId：' + res.headers['requestId'])
         print(res.json())
         # token = res.json()['data']['result']['token']
         # print(token)

@@ -1,0 +1,2 @@
+{'retCode': 1, 'isExpire': 1, 'retMsg': '参数非法 couponIds不能为空; '}
+requestId：G9514317939

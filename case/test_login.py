@@ -10,6 +10,7 @@ class TestLogIN(BaseCase):
     def test_login(self):
         res = self.login.login()
         print(res.json())
+        print('requestId：' + res.headers['requestId'])
         print(res.json()['data']['result']['token'])
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
