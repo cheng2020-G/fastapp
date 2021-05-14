@@ -14,6 +14,7 @@ from api.freesecond import FreeSecond
 from api.fronterror import FrontError
 from api.get_coupon import GetCoupon
 from api.getcode import GetCode
+from api.gettruntableactivity import GetTruntableActivity
 from api.lastchapter import LastChapter
 from api.localpush import LocalPush
 from api.login import LogIn
@@ -97,3 +98,4 @@ class BaseCase:
         self.vipactivity = VipActivity()
         self.sharecount = ShareCount()
         self.turntableactivity = TurntableActivity()
+        self.getturntableactivity = GetTruntableActivity()
