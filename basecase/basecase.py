@@ -42,6 +42,7 @@ from api.updateuserinfo import UpdateUserInfo
 from api.userauthorize import UserAuthorize
 from api.usercenter import UserCenter
 from api.usercoupon import UserCoupon
+from api.vipactivity import VipActivity
 
 
 class BaseCase:
@@ -91,3 +92,4 @@ class BaseCase:
         self.rechargeactivity = RechargeActivity()
         self.sign = Sign()
         self.signin = SignIn()
+        self.vipactivity = VipActivity()
