@@ -2,6 +2,7 @@ from api.adddesktop import AddDesktop
 from api.appstart import AppStart
 from api.bookdetails import BookDetails
 from api.bookhome import BookHome
+from api.category import CateGory
 from api.chapter import Chapter
 from api.chapterpay import ChapterPay
 from api.getcode import GetCode
@@ -57,3 +58,4 @@ class BaseCase:
         self.readhold = ReadHold()
         self.appstart = AppStart()
         self.bookhome = BookHome()
+        self.category = CateGory()
