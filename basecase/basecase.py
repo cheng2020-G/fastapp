@@ -6,6 +6,7 @@ from api.category import CateGory
 from api.categoryseconf import CateGorySecond
 from api.chapter import Chapter
 from api.chapterpay import ChapterPay
+from api.feedback import FeedBack
 from api.free import Free
 from api.freesecond import FreeSecond
 from api.getcode import GetCode
@@ -69,3 +70,4 @@ class BaseCase:
         self.freesecond = FreeSecond()
         self.rank = Rank()
         self.push = Push()
+        self.feedback = FeedBack()
