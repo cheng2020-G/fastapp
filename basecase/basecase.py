@@ -13,6 +13,7 @@ from api.freesecond import FreeSecond
 from api.fronterror import FrontError
 from api.getcode import GetCode
 from api.lastchapter import LastChapter
+from api.localpush import LocalPush
 from api.login import LogIn
 from api.logout import LogOut
 from api.olduserlogin import OldUserLogin
@@ -75,3 +76,4 @@ class BaseCase:
         self.feedback = FeedBack()
         self.appstartapi = AppStartApi()
         self.fronterror = FrontError()
+        self.localpush = LocalPush()
