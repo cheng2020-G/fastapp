@@ -10,6 +10,7 @@ from api.chapterpay import ChapterPay
 from api.feedback import FeedBack
 from api.free import Free
 from api.freesecond import FreeSecond
+from api.fronterror import FrontError
 from api.getcode import GetCode
 from api.lastchapter import LastChapter
 from api.login import LogIn
@@ -73,3 +74,4 @@ class BaseCase:
         self.push = Push()
         self.feedback = FeedBack()
         self.appstartapi = AppStartApi()
+        self.fronterror = FrontError()
