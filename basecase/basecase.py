@@ -39,6 +39,7 @@ from api.sign import Sign
 from api.signin import SignIn
 from api.spendlist import SpendList
 from api.task import Task
+from api.turntableactivity import TurntableActivity
 from api.updateuserinfo import UpdateUserInfo
 from api.userauthorize import UserAuthorize
 from api.usercenter import UserCenter
@@ -95,3 +96,4 @@ class BaseCase:
         self.signin = SignIn()
         self.vipactivity = VipActivity()
         self.sharecount = ShareCount()
+        self.turntableactivity = TurntableActivity()
