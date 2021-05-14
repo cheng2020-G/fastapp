@@ -34,6 +34,7 @@ from api.rechargerecord import RechargeRecord
 from api.recommendedbooks import RecommendedBooks
 from api.sendbook import SendBook
 from api.shelfclouds import ShelfClouds
+from api.sign import Sign
 from api.spendlist import SpendList
 from api.task import Task
 from api.updateuserinfo import UpdateUserInfo
@@ -87,3 +88,4 @@ class BaseCase:
         self.usercoupon = UserCoupon()
         self.position = Position()
         self.rechargeactivity = RechargeActivity()
+        self.sign = Sign()
