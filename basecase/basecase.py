@@ -11,6 +11,7 @@ from api.order import Order
 from api.orderinform import OrderInform
 from api.prestrain import PresTrain
 from api.readbegin import ReadBegin
+from api.readhold import ReadHold
 from api.readtime import ReadTime
 from api.rechargelist import RechargeList
 from api.rechargerecord import RechargeRecord
@@ -51,3 +52,4 @@ class BaseCase:
         self.readbegin = ReadBegin()
         self.chapterpay = ChapterPay()
         self.prestrain = PresTrain()
+        self.readhold = ReadHold()

@@ -1,5 +1,5 @@
 method: post
-url: http://95.kky.dzods.cn/glory/fastapp/2152?ver=5502450&appVer=5.5.2.450
+url: http://95.kky.dzods.cn/glory/fastapp/2153?ver=5502450&appVer=5.5.2.450
 headers:
  utdidTmp: tmp_1615874327600AxgpeLJzHR
  osvc: '29'
@@ -30,14 +30,6 @@ headers:
  Connection: close
 json:
  bookId: 11000000276
- chapterId: 193628
- ignoreChapterIds:
-  - 193631
-  - 193630
-  - 193629
- autoPay: 1
- uuid:
- pullMode:
- isUpdate: 0
+ version: 1
 
 
