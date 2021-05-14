@@ -1,4 +1,5 @@
 from api.adddesktop import AddDesktop
+from api.appstart import AppStart
 from api.bookdetails import BookDetails
 from api.chapter import Chapter
 from api.chapterpay import ChapterPay
@@ -53,3 +54,4 @@ class BaseCase:
         self.chapterpay = ChapterPay()
         self.prestrain = PresTrain()
         self.readhold = ReadHold()
+        self.appstart = AppStart()
