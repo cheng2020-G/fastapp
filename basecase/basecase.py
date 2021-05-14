@@ -1,5 +1,6 @@
 from api.adddesktop import AddDesktop
 from api.appstart import AppStart
+from api.appstartapi import AppStartApi
 from api.bookdetails import BookDetails
 from api.bookhome import BookHome
 from api.category import CateGory
@@ -71,3 +72,4 @@ class BaseCase:
         self.rank = Rank()
         self.push = Push()
         self.feedback = FeedBack()
+        self.appstartapi = AppStartApi()
