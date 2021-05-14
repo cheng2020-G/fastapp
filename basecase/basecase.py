@@ -1,3 +1,4 @@
+from api import coupon
 from api.adddesktop import AddDesktop
 from api.appstart import AppStart
 from api.appstartapi import AppStartApi
@@ -7,6 +8,7 @@ from api.category import CateGory
 from api.categoryseconf import CateGorySecond
 from api.chapter import Chapter
 from api.chapterpay import ChapterPay
+from api.coupon import Coupon
 from api.feedback import FeedBack
 from api.free import Free
 from api.freesecond import FreeSecond
@@ -77,3 +79,4 @@ class BaseCase:
         self.appstartapi = AppStartApi()
         self.fronterror = FrontError()
         self.localpush = LocalPush()
+        self.coupon = Coupon()
