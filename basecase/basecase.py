@@ -6,6 +6,7 @@ from api.category import CateGory
 from api.categoryseconf import CateGorySecond
 from api.chapter import Chapter
 from api.chapterpay import ChapterPay
+from api.free import Free
 from api.getcode import GetCode
 from api.lastchapter import LastChapter
 from api.login import LogIn
@@ -61,3 +62,4 @@ class BaseCase:
         self.bookhome = BookHome()
         self.category = CateGory()
         self.categorysecond = CateGorySecond()
+        self.free = Free()
