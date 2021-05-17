@@ -29,6 +29,7 @@ from api.morerechargeactivity import MoreRechargeActivity
 from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
+from api.playup import PlayUp
 from api.position import Position
 from api.prestrain import PresTrain
 from api.push import Push
@@ -113,3 +114,4 @@ class BaseCase:
         self.collectcards = CollectCards()
         self.getcollectcards = GetCollectCards()
         self.look = Look()
+        self.playup = PlayUp()
