@@ -7,6 +7,7 @@ from api.category import CateGory
 from api.categoryseconf import CateGorySecond
 from api.chapter import Chapter
 from api.chapterpay import ChapterPay
+from api.collectcards import CollectCards
 from api.coupon import Coupon
 from api.feedback import FeedBack
 from api.free import Free
@@ -107,3 +108,4 @@ class BaseCase:
         self.manjianactivity = ManJianActivity()
         self.getmanjianactivity = GetManJianActivity()
         self.morerechargeactivity = MoreRechargeActivity()
+        self.collectcards = CollectCards()
