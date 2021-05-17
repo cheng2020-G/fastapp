@@ -42,6 +42,7 @@ from api.rechargelist import RechargeList
 from api.rechargerecord import RechargeRecord
 from api.recommendedbooks import RecommendedBooks
 from api.search import Search
+from api.searchthink import SearchThink
 from api.sendbook import SendBook
 from api.sharecount import ShareCount
 from api.shelfclouds import ShelfClouds
@@ -117,3 +118,4 @@ class BaseCase:
         self.look = Look()
         self.playup = PlayUp()
         self.search = Search()
+        self.searchthink = SearchThink()
