@@ -57,6 +57,7 @@ from api.user_system import UserSystem
 from api.userauthorize import UserAuthorize
 from api.usercenter import UserCenter
 from api.usercoupon import UserCoupon
+from api.usersystemrule import UserSystemRule
 from api.vipactivity import VipActivity
 
 
@@ -123,3 +124,4 @@ class BaseCase:
         self.searchthink = SearchThink()
         self.searchkeywords = SearchKeyWords()
         self.usersystem = UserSystem()
+        self.usersystemrule = UserSystemRule()
