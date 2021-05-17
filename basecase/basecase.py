@@ -53,6 +53,7 @@ from api.spendlist import SpendList
 from api.task import Task
 from api.turntableactivity import TurntableActivity
 from api.updateuserinfo import UpdateUserInfo
+from api.user_system import UserSystem
 from api.userauthorize import UserAuthorize
 from api.usercenter import UserCenter
 from api.usercoupon import UserCoupon
@@ -121,3 +122,4 @@ class BaseCase:
         self.search = Search()
         self.searchthink = SearchThink()
         self.searchkeywords = SearchKeyWords()
+        self.usersystem = UserSystem()
