@@ -59,6 +59,7 @@ from api.usercenter import UserCenter
 from api.usercoupon import UserCoupon
 from api.usersystemrule import UserSystemRule
 from api.vipactivity import VipActivity
+from api.vivomessage import VivoMessage
 
 
 class BaseCase:
@@ -125,3 +126,4 @@ class BaseCase:
         self.searchkeywords = SearchKeyWords()
         self.usersystem = UserSystem()
         self.usersystemrule = UserSystemRule()
+        self.vivomessage = VivoMessage()
