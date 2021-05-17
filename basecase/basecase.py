@@ -16,6 +16,7 @@ from api.fronterror import FrontError
 from api.get_coupon import GetCoupon
 from api.get_manjianactivity import GetManJianActivity
 from api.getcode import GetCode
+from api.getcollectcards import GetCollectCards
 from api.gettruntableactivity import GetTruntableActivity
 from api.lastchapter import LastChapter
 from api.localpush import LocalPush
@@ -109,3 +110,4 @@ class BaseCase:
         self.getmanjianactivity = GetManJianActivity()
         self.morerechargeactivity = MoreRechargeActivity()
         self.collectcards = CollectCards()
+        self.getcollectcards = GetCollectCards()
