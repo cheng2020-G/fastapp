@@ -22,6 +22,7 @@ from api.lastchapter import LastChapter
 from api.localpush import LocalPush
 from api.login import LogIn
 from api.logout import LogOut
+from api.look import Look
 from api.lottery import Lottery
 from api.manjianactivity import ManJianActivity
 from api.morerechargeactivity import MoreRechargeActivity
@@ -111,3 +112,4 @@ class BaseCase:
         self.morerechargeactivity = MoreRechargeActivity()
         self.collectcards = CollectCards()
         self.getcollectcards = GetCollectCards()
+        self.look = Look()
