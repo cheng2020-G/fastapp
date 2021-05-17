@@ -42,6 +42,7 @@ from api.rechargelist import RechargeList
 from api.rechargerecord import RechargeRecord
 from api.recommendedbooks import RecommendedBooks
 from api.search import Search
+from api.searchkeywords import SearchKeyWords
 from api.searchthink import SearchThink
 from api.sendbook import SendBook
 from api.sharecount import ShareCount
@@ -119,3 +120,4 @@ class BaseCase:
         self.playup = PlayUp()
         self.search = Search()
         self.searchthink = SearchThink()
+        self.searchkeywords = SearchKeyWords()
