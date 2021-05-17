@@ -36,7 +36,8 @@
 4、测试数据（请求方法，请求url，请求header及请求参数）都放入data层，以yaml文件存储
 
 
-执行测试用例(一)：
+执行测试用例：
+
 1、使用pyets执行单个测试用例
 `pytest test_upm.py`
 
@@ -45,18 +46,6 @@
 
 3、使用allure查看测试结果
 `allure serve result\20210512`
-
-
-执行测试用例(二)：
-生成 json
-pytest --alluredir ./report
-
-生成html报告
-allure generate ./
-
-打开 html报告
-不能直接双击index.html,需要使用命令 ：
-allure open 报告目录/
 
 
 Jenkins执行测试脚本可以集成Allure-Report
