@@ -20,6 +20,7 @@ from api.localpush import LocalPush
 from api.login import LogIn
 from api.logout import LogOut
 from api.lottery import Lottery
+from api.manjianactivity import ManJianActivity
 from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
@@ -101,3 +102,4 @@ class BaseCase:
         self.turntableactivity = TurntableActivity()
         self.getturntableactivity = GetTruntableActivity()
         self.lottery = Lottery()
+        self.manjianactivity = ManJianActivity()
