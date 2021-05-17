@@ -19,6 +19,7 @@ from api.lastchapter import LastChapter
 from api.localpush import LocalPush
 from api.login import LogIn
 from api.logout import LogOut
+from api.lottery import Lottery
 from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
@@ -99,3 +100,4 @@ class BaseCase:
         self.sharecount = ShareCount()
         self.turntableactivity = TurntableActivity()
         self.getturntableactivity = GetTruntableActivity()
+        self.lottery = Lottery()
