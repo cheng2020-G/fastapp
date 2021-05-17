@@ -1,2 +1,0 @@
-requestId：G9511015613
-{'retCode': 0, 'isExpire': 1, 'data': {'mtKeyword': '^【xsydb】您的安全验证码是：\\d{4}，请在10分钟内输入。$', 'rule': '\\d{4}', 'result': '1'}}

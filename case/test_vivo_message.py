@@ -1,7 +1,10 @@
+import pytest
+
 from basecase.basecase import BaseCase
 
 
 class TestVivoMessage(BaseCase):
+    @pytest.mark.skip
     def test_vivo_message(self):
         res = self.vivomessage.vivo_message()
         print(res.json())

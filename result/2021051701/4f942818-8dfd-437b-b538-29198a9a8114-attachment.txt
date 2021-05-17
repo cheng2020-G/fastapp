@@ -1,0 +1,2 @@
+{'retCode': 0, 'isExpire': 1, 'data': {'awardId': '228b92d9af0646da941a67a603f1039b', 'awardName': '话费', 'awardType': 6, 'awardImg': 'http://qnqat.kuaikandushu.cn/others/fastawardchance/date20210409/1617958731868.png', 'awardCount': 100, 'awardReferObj': '{"recordCode":"eff994f8-92a9-4d68-819a-b87c2a649b3d","name":"话费","moneyAmount":100,"recordStatus":0}', 'mobileFeeRecordCode': 'eff994f8-92a9-4d68-819a-b87c2a649b3d', 'gradeDrawCount': 0, 'drawedTimes': 10, 'times': 990}}
+requestId：G9510410431

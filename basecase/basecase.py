@@ -60,6 +60,7 @@ from api.usercoupon import UserCoupon
 from api.usersystemrule import UserSystemRule
 from api.vipactivity import VipActivity
 from api.vivomessage import VivoMessage
+from api.vivosub import VivoSub
 
 
 class BaseCase:
@@ -127,3 +128,4 @@ class BaseCase:
         self.usersystem = UserSystem()
         self.usersystemrule = UserSystemRule()
         self.vivomessage = VivoMessage()
+        self.vivosub = VivoSub()
