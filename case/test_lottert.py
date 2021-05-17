@@ -6,4 +6,5 @@ class TestLottory(BaseCase):
         res = self.lottery.lottery()
         print(res.request)
         print(res.json())
+        print('requestId:' + res.headers['requestId'])
         assert res.status_code == 200

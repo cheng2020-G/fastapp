@@ -22,6 +22,7 @@ from api.login import LogIn
 from api.logout import LogOut
 from api.lottery import Lottery
 from api.manjianactivity import ManJianActivity
+from api.morerechargeactivity import MoreRechargeActivity
 from api.olduserlogin import OldUserLogin
 from api.order import Order
 from api.orderinform import OrderInform
@@ -105,3 +106,4 @@ class BaseCase:
         self.lottery = Lottery()
         self.manjianactivity = ManJianActivity()
         self.getmanjianactivity = GetManJianActivity()
+        self.morerechargeactivity = MoreRechargeActivity()

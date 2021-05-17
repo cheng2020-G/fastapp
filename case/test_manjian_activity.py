@@ -7,6 +7,7 @@ class TestManJianActivity(BaseCase):
     def test_manjian_activity(self):
         res = self.manjianactivity.manjianactivity()
         print(res.json())
+        print('requestId:' + res.headers['requestId'])
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
         assert res.json()['isExpire'] == 1
