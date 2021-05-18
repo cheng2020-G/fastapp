@@ -12,3 +12,6 @@ class TestUserSystemRule(BaseCase):
         assert res.json()['retCode'] == 0
         assert res.json()['isExpire'] == 1
         # assert re.search('[.+?]', res.json()['data']['ruleList'])
+        assert re.search('lv\d', res.json()['data']['rrdList'][0]['gradeId'])
+        assert re.search('\S+', res.json()['data']['rrdList'][0]['gradeName'])
+        assert re.search('\d', str(res.json()['data']['rrdList'][0]['exp']))
