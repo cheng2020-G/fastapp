@@ -3,7 +3,7 @@ from basecase.basecase import BaseCase
 
 class TestPlayUp(BaseCase):
     def test_play_up(self):
-        res = self.playup.play_up()
+        res = self.play_up.play_up()
         print(res.json())
         print('requestID: ' + res.headers['requestId'])
         assert res.status_code == 200

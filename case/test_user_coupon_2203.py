@@ -5,7 +5,7 @@ from basecase.basecase import BaseCase
 
 class TestUserCoupon(BaseCase):
     def test_user_coupon_2203(self):
-        res = self.usercoupon.user_coupon()
+        res = self.user_coupon.user_coupon()
         print(res.json())
         print('requestId：' + res.headers['requestId'])
         assert res.status_code == 200

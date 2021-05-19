@@ -5,7 +5,7 @@ from basecase.basecase import BaseCase
 
 class TestVipActivity(BaseCase):
     def test_vip_activity(self):
-        res = self.vipactivity.vip_activity()
+        res = self.vip_activity.vip_activity()
         print('requestId' + res.headers['requestId'])
         print(res.json())
         assert res.status_code == 200

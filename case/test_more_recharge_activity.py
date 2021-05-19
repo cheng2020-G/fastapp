@@ -3,7 +3,7 @@ from basecase.basecase import BaseCase
 
 class TestMoreRechargeActivity(BaseCase):
     def test_more_recharge_activity(self):
-        res = self.morerechargeactivity.more_recharge_activity()
+        res = self.more_recharge_activity.more_recharge_activity()
         print(res.json())
         print('requestId：'+ res.headers['requestId'])
         assert res.status_code == 200

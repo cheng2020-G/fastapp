@@ -5,7 +5,7 @@ from basecase.basecase import BaseCase
 
 class TestCollectCards(BaseCase):
     def test_collect_cards(self):
-        res = self.getcollectcards.get_collect_cards()
+        res = self.getcollect_cards.get_collect_cards()
         print(res.json())
         print('requestId: ' + res.headers['requestId'])
         assert res.status_code == 200

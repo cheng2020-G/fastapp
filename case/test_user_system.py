@@ -5,7 +5,7 @@ from basecase.basecase import BaseCase
 
 class TestUserSystem(BaseCase):
     def test_user_system(self):
-        res = self.usersystem.user_system()
+        res = self.user_system.user_system()
         print(res.json())
         print('requestId: ' + res.headers['requestId'])
         assert res.status_code == 200

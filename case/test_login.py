@@ -4,7 +4,7 @@ import re
 
 class TestLogIN(BaseCase):
     def test_get_code(self):
-        res = self.getcode.get_code()
+        res = self.get_code.get_code()
         assert res.status_code == 200
 
     def test_login(self):

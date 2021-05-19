@@ -1,0 +1,2 @@
+{'retCode': 0, 'data': {'sex': 1, 'ctime': '2021-01-29 14:12:20', 'userId': '2030484', 'channelCode': 'KYY1000004'}}
+requestId：G9516146846

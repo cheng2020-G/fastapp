@@ -5,7 +5,7 @@ from basecase.basecase import BaseCase
 
 class TestManJianActivity(BaseCase):
     def test_manjian_activity(self):
-        res = self.manjianactivity.manjianactivity()
+        res = self.manjian_activity.manjian_activity()
         print(res.json())
         print('requestId:' + res.headers['requestId'])
         assert res.status_code == 200

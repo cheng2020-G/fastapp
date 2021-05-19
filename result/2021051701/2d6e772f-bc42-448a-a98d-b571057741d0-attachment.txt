@@ -1,3 +1,0 @@
-<PreparedRequest [POST]>
-{'retCode': 4108, 'isExpire': 1, 'retMsg': '领取话费异常'}
-requestId:G9511090245
