@@ -29,6 +29,6 @@ headers:
  Accept-Encoding: gzip
  Connection: keep-alive
 json:
- isas: 1
+ readPref: 1
 
 

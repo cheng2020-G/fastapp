@@ -1,3 +1,5 @@
+import re
+
 from basecase.basecase import BaseCase
 
 
@@ -8,3 +10,7 @@ class TestUserAuthorize(BaseCase):
         print('requestId：' + res.headers['requestId'])
         print(res.json())
         assert res.status_code == 200
+        assert res.json()['retCode'] == 0
+        assert re.search(r'\d', str(res.json()['data']['sex']))
+        assert re.search(r'\d+', str(res.json()['data']['userId']))
+        assert re.search(r'\w+', res.json()['data']['channelCode'])
