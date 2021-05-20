@@ -6,8 +6,9 @@ from basecase.basecase import BaseCase
 class TestUserCoupon(BaseCase):
     def test_user_coupon_2203(self):
         res = self.user_coupon.user_coupon()
-        print(res.json())
+        print('请求url：' + res.url)
         print('requestId：' + res.headers['requestId'])
+        print(res.json())
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
         assert re.search(r'\d+', str(res.json()['data']['counponVoList'][0]['id']))

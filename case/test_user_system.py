@@ -6,8 +6,9 @@ from basecase.basecase import BaseCase
 class TestUserSystem(BaseCase):
     def test_user_system(self):
         res = self.user_system.user_system()
+        print('请求url：' + res.url)
+        print('requestId：' + res.headers['requestId'])
         print(res.json())
-        print('requestId: ' + res.headers['requestId'])
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
         assert res.json()['isExpire'] == 1

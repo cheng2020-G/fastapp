@@ -1,0 +1,3 @@
+请求url：http://95.kky.dzods.cn/glory/fastapp/2175?ver=5502450&appVer=5.5.2.450
+requestId：G9512832880
+{'retCode': 0, 'isExpire': 1, 'data': 1}

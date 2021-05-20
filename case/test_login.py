@@ -5,13 +5,16 @@ import re
 class TestLogIN(BaseCase):
     def test_get_code(self):
         res = self.get_code.get_code()
+        print('请求url：' + res.url)
+        print('requestId：' + res.headers['requestId'])
         assert res.status_code == 200
 
     def test_login(self):
         res = self.login.login()
-        print(res.json())
+        print('请求url：' + res.url)
         print('requestId：' + res.headers['requestId'])
-        print(res.json()['data']['result']['token'])
+        print(res.json())
+        print('token: ' + res.json()['data']['result']['token'])
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
         assert res.json()['isExpire'] == 1
