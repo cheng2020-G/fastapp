@@ -7,6 +7,7 @@ class TestLogIN(BaseCase):
         res = self.get_code.get_code()
         print('请求url：' + res.url)
         print('requestId：' + res.headers['requestId'])
+        print(res.json())
         assert res.status_code == 200
 
     def test_login(self):
