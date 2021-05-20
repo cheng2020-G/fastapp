@@ -1,2 +1,0 @@
-{'retCode': 0, 'isExpire': 1, 'data': {'code': 106, 'message': '您已领取抽卡机会，请勿重复领取'}}
-requestId: G9513345365

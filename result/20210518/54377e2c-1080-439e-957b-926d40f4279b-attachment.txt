@@ -1,2 +1,0 @@
-{'retCode': 0, 'data': {'sex': 0, 'userId': '2042232', 'channelCode': 'KYY1000004'}}
-requestId：G9517172638
