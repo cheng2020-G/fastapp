@@ -2,7 +2,7 @@
 
 ~~~~说明：使用api_object分层模式~~~~
 1、baseapi配置页面：
-    --构建send请求方法（所有接口层都将继承send方法，即request方法）
+    --构建http请求方法（所有接口层都将继承此方法，即request方法）
     --单独提取获取token方法（提供给需要使用token的关联接口使用）
     --并使用Template模板替换token参数（替换yaml文件中的token，作为参数化）
 

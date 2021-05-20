@@ -7,7 +7,7 @@ class GetParameters(BaseApi):
 
     def get_code(self):
         data = yaml.safe_load(open('D:/script/fastapp/data/get_code.yaml'))
-        res = self.send(data)
+        res = self.http(data)
         print('请求url： ' + res.url)
         print('requestId: ' + res.headers['requestId'])
         print(res.json())
@@ -16,7 +16,7 @@ class GetParameters(BaseApi):
     # @pytest.mark.order(1)
     def get_token(self):
         data = yaml.safe_load(open('D:/script/fastapp/data/login.yaml'))
-        res = self.send(data)
+        res = self.http(data)
         print('请求url： ' + res.url)
         print('requestId: ' + res.headers['requestId'])
         print(res.json())

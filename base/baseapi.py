@@ -3,7 +3,7 @@ import requests
 
 class BaseApi:
     # 构建request请求方法
-    def send(self, data):
+    def http(self, data):
         return requests.request(**data)
 
 # 调试
