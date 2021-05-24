@@ -1,5 +1,5 @@
 method: post
-url: http://95.kky.dzods.cn/glory/fastapp/2521?ver=5502450&appVer=5.5.2.450
+url: http://95.kky.dzods.cn/glory/fastapp/2115?ver=5502450&appVer=5.5.2.450
 headers:
  utdidTmp: tmp_1615874327600AxgpeLJzHR
  osvc: '29'
@@ -9,7 +9,7 @@ headers:
  osvn: '10'
  channelCodeFee: KYY1000004
  triggerTime: '20210316135847'
- userId: '2036595'
+ userId: '2040294'
  readPref: '1'
  scDistinctId: 1615874327537-6147661-0d109e5b509c3-2619848
  t: pgDY3DZ1LH0UBviswPJ2+Q==
@@ -29,6 +29,5 @@ headers:
  Accept-Encoding: gzip
  Connection: keep-alive
 json:
- keyword: '我'
-
-
+ operId: 442
+ bookId: 11000000307
