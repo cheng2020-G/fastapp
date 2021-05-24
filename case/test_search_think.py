@@ -12,6 +12,6 @@ class TestSearchThink(BaseCase):
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
         assert res.json()['isExpire'] == 1
-        assert re.search('\w+', res.json()['data'][0]['title'])
+        assert re.search(r'\w+', res.json()['data'][0]['title'])
         assert re.search('', res.json()['data'][0]['cover'])
-        assert re.search('\d', str(res.json()['data'][0]['type']))
+        assert re.search(r'\d', str(res.json()['data'][0]['type']))
