@@ -9,6 +9,11 @@ class TestLogIN(BaseCase):
         print('requestId：' + res.headers['requestId'])
         print(res.json())
         assert res.status_code == 200
+        assert res.json()['retCode'] == 0
+        assert res.json()['isExpire'] == 1
+        assert re.search('您的安全验证码是：', res.json()['data']['mtKeyword'])
+        assert re.search(r'.+?', res.json()['data']['rule'])
+        assert res.json()['data']['result'] == '1'
 
     def test_login(self):
         res = self.login.login()
