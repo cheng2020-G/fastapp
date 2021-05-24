@@ -19,6 +19,7 @@ class TestRechargeActivity(BaseCase):
         assert re.search(r'http://\w+', res.json()['data']['imageTwo'])
         assert re.search(r'\w+', res.json()['data']['beginTime'])
         assert re.search(r'\w+', res.json()['data']['endTime'])
+        assert re.search(r'\w+', res.json()['data']['endTime'])
         assert re.search(r'\d', str(res.json()['data']['isFollow']))
         assert re.search(r'\d', str(res.json()['data']['tip']))
         assert re.search(r'\d', str(res.json()['data']['rechargeType']))
