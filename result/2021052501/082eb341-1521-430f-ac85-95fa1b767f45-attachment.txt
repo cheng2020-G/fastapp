@@ -1,0 +1,3 @@
+请求url：http://95.kky.dzods.cn/glory/fastapp/2106?ver=5502450&appVer=5.5.2.450
+requestId：G9518324823
+{'retCode': 0, 'isExpire': 1, 'data': {'user': {'userId': '2030484', 'sex': 1, 'nickName': '186****0099', 'activeDate': 1611900740000, 'vip': False, 'login': False, 'vipExpiryTime': ''}, 'amount': 3, 'award': 30, 'isWxShare': 1, 'goUrl': 'https://95.kky.dzods.cn/huodong/quickapp/invite/index.html', 'tabInfo': {'1': 1, '2': 1}, 'taskFinishCount': 2, 'groupNum': '991246371', 'autoRenew': 0, 'loginPopupFlag': 1, 'zhiChiUrl': ' https://www.sobot.com/chat/h5/v2/index.html?sysnum=50d393e83a4d46d8857e8395e774f18d&source=1&uname=kyy2030484null&is_vip=0', 'gradeNo': 'lv6', 'gradeName': '至尊用户', 'isReceive': 1, 'gradeAward': 100}}

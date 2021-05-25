@@ -1,0 +1,3 @@
+请求url：http://95.kky.dzods.cn/glory/fastapp/2521?ver=5502450&appVer=5.5.2.450
+requestId：G9513794497
+{'retCode': 0, 'isExpire': 1, 'data': [{'title': '我不是z', 'cover': '', 'type': '2'}, {'title': '我本疯狂工作室', 'cover': '', 'type': '2'}, {'title': '我是军师', 'cover': '', 'type': '2'}]}
