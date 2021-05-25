@@ -1,4 +1,0 @@
-请求url：http://95.kky.dzods.cn/glory/fastapp/2105?ver=5502450&appVer=5.5.2.450
-requestId：G9518629120
-{'retCode': 0, 'isExpire': 1, 'data': {'code': 0, 'message': '登录成功', 'result': {'userId': '2041199', 'uName': '157****0000', 'uPhoto': '', 'token': 'KYYLT_2041199_rupppWevGRqq+T8APBf6xw==_YAL-AL10', 'tokenExpire': ''}}}
-token: KYYLT_2041199_rupppWevGRqq+T8APBf6xw==_YAL-AL10

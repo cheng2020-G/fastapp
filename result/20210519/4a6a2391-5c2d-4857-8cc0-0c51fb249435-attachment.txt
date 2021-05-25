@@ -1,3 +1,0 @@
-请求url：http://95.kky.dzods.cn/glory/fastapp/2411?ver=5502450&appVer=5.5.2.450
-requestId：G9513415795
-{'retCode': 0, 'isExpire': 1, 'data': {'awardId': '228b92d9af0646da941a67a603f1039b', 'awardName': '话费', 'awardType': 6, 'awardImg': 'http://qnqat.kuaikandushu.cn/others/fastawardchance/date20210409/1617958731868.png', 'awardCount': 100, 'awardReferObj': '{"recordCode":"fc0feb5f-fb1f-42c0-84e3-ab4ce08866a8","name":"话费","moneyAmount":100,"recordStatus":0}', 'mobileFeeRecordCode': 'fc0feb5f-fb1f-42c0-84e3-ab4ce08866a8', 'gradeDrawCount': 0, 'drawedTimes': 4, 'times': 996}}

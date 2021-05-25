@@ -1,3 +1,0 @@
-请求url：http://95.kky.dzods.cn/glory/fastapp/2101?ver=5502450&appVer=5.5.2.450
-requestId：G9511536950
-{'retCode': 0, 'data': {'sex': 1, 'ctime': '2021-01-29 14:12:20', 'userId': '2030484', 'channelCode': 'KYY1000004'}}
