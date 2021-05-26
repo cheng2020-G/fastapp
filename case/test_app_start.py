@@ -9,12 +9,26 @@ class TestAppStart(BaseCase):
         print('请求url：' + res.url)
         print('requestId：' + res.headers['requestId'])
         print(res.json())
+        print(res.json()['data']['tactics'])
+        print(type(res.json()['data']['tactics']))
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
-        assert re.search(r'\d', str(res.json()['data']['tactics'][0]['type']))
-        assert re.search(r'\d', str(res.json()['data']['tactics'][0]['videoTacticsVoList'][0]['id']))
-        assert re.search(r'\d', str(res.json()['data']['tactics'][0]['videoTacticsVoList'][0]['start']))
-        assert re.search(r'\d', str(res.json()['data']['tactics'][0]['videoTacticsVoList'][0]['frequency']))
+        for i in res.json()['data']['tactics']:
+            print(i)
+            print(type(i))
+            assert re.search(r'\d', str(i['type']))
+            assert re.search(r'\d+', str(i['location']))
+            # assert re.search(r'\w+', str(i['operationName']))
+            assert re.search(r'\d+', str(i['userTacticsVo']['tacticsId']))
+            assert re.search(r'\w+', str(i['userTacticsVo']['tacticsName']))
+            assert re.search(r'\d+', str(i['userTacticsVo']['sourceId']))
+            assert re.search(r'\w+', str(i['userTacticsVo']['sourceName']))
+            assert re.search(r'\d', str(i['userTacticsVo']['isDot']))
+            # for j in i['videoTacticsVoList']:
+            #     print(j)
+            #     assert re.search(r'\d', str(j['id']))
+            #     assert re.search(r'\d', str(j['start']))
+            #     assert re.search(r'\d', str(j['frequency']))
         assert re.search(r'\d', str(res.json()['data']['tactics'][0]['videoTacticsVoList'][0]['videoList'][0]['id']))
         assert re.search(r'\d+',
                          str(res.json()['data']['tactics'][0]['videoTacticsVoList'][0]['videoList'][0]['bookId']))
@@ -32,16 +46,15 @@ class TestAppStart(BaseCase):
                          str(res.json()['data']['tactics'][0]['videoTacticsVoList'][0]['videoList'][0]['fraction']))
         assert re.search(r'True|False',
                          str(res.json()['data']['tactics'][0]['videoTacticsVoList'][0]['videoList'][0]['inBookShelf']))
-        assert re.search(r'\d+', str(res.json()['data']['tactics'][0]['location']))
-        assert re.search(r'\w+', str(res.json()['data']['tactics'][0]['operationName']))
-        assert re.search(r'\d+', str(res.json()['data']['tactics'][0]['userTacticsVo']['tacticsId']))
-        assert re.search(r'\w+', str(res.json()['data']['tactics'][0]['userTacticsVo']['tacticsName']))
-        assert re.search(r'\d+', str(res.json()['data']['tactics'][0]['userTacticsVo']['sourceId']))
-        assert re.search(r'\w+', str(res.json()['data']['tactics'][0]['userTacticsVo']['sourceName']))
-        assert re.search(r'\d', str(res.json()['data']['tactics'][0]['userTacticsVo']['isDot']))
         assert re.search(r'\d+', str(res.json()['data']['freeLimitUt']['tacticsId']))
         assert re.search(r'\w+', str(res.json()['data']['freeLimitUt']['tacticsName']))
         assert re.search(r'\d+', str(res.json()['data']['freeLimitUt']['sourceId']))
         assert re.search(r'\w+', str(res.json()['data']['freeLimitUt']['sourceName']))
         assert re.search(r'\d', str(res.json()['data']['freeLimitUt']['isDot']))
 
+    def test_app_start_new(self):
+        res = self.app_start.app_start_new()
+        print('请求url' + res.url)
+        print('requestId: ' + res.headers['requestId'])
+        print(res.json())
+        assert res.status_code == 200
