@@ -25,6 +25,7 @@
 
 5、测试数据使用yaml文件统一管理
     --yaml文件中不能使用tab缩进，只能使用空格；
+    --hearders中数字加引号
     --传参格式为：json
 
 6、result中存放使用pytest执行的测试结果，使用allure测试报告打开
