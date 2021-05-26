@@ -12,12 +12,21 @@ class TestFreeSecond(BaseCase):
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
         assert re.search(r'\d', str(res.json()['data']['page']))
-        assert re.search(r'\w+', str(res.json()['data']['section'][0]['author']))
-        assert re.search(r'http://\w+', str(res.json()['data']['section'][0]['coverWap']))
-        assert re.search(r'\w+', str(res.json()['data']['section'][0]['clickNum']))
-        assert re.search(r'\w+', str(res.json()['data']['section'][0]['totalWordSize']))
-        assert re.search(r'\w+', str(res.json()['data']['section'][0]['bookName']))
-        assert re.search(r'\w+', str(res.json()['data']['section'][0]['introduction']))
-        assert re.search(r'\d+', str(res.json()['data']['section'][0]['bookId']))
-        assert re.search(r'\w+', str(res.json()['data']['section'][0]['status']))
-
+        for author in res.json()['data']['section']:
+            print(author)
+            assert re.search(r'\w+', str(author['author']))
+        for coverWap in res.json()['data']['section']:
+            assert re.search(r'http://\w+', str(coverWap['coverWap']))
+        for clickNum in res.json()['data']['section']:
+            assert re.search(r'\w+', str(clickNum['clickNum']))
+        for totalWordSize in res.json()['data']['section']:
+            assert re.search(r'\w+', str(totalWordSize['totalWordSize']))
+        for bookName in res.json()['data']['section']:
+            assert re.search(r'\w+', str(bookName['bookName']))
+        for introduction in res.json()['data']['section']:
+            assert re.search(r'\w+', str(introduction['introduction']))
+        for bookId in res.json()['data']['section']:
+            assert re.search(r'\d+', str(bookId['bookId']))
+        for status in res.json()['data']['section']:
+            assert re.search(r'\w+', str(status['status']))
+        # assert re.search(r'\d+', str((for bookId in res.json()['data']['section']: return)['bookId'])
