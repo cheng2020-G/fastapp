@@ -22,4 +22,3 @@ class TestFreeSecond(BaseCase):
             assert re.search(r'\w+', str(i['introduction']))
             assert re.search(r'\d+', str(i['bookId']))
             assert re.search(r'\w+', str(i['status']))
-        # assert re.search(r'\d+', str((for bookId in res.json()['data']['section']: return)['bookId'])
