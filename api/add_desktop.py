@@ -3,7 +3,7 @@ import yaml
 from base.baseapi import BaseApi
 
 
-class AddDesktop(BaseApi):
-    def add_desktop(self):
-        data = yaml.safe_load(open('D:/script/fastapp/data/add_desktop.yaml'))
-        return self.http(data)
+class AddDesktop:
+    def add_desktop(self, data_add_desktop):
+        self.add_desk_top = BaseApi()
+        return self.add_desk_top.http(data_add_desktop)

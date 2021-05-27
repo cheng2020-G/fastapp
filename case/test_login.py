@@ -36,6 +36,8 @@ class TestLogIN:
     def test_get_code(self):
         data = yaml.safe_load(open('D:/script/fastapp/data/get_code.yaml'))
         res = LogIn().login(data)
+        print('请求url：' + res.url)
+        print('requestId：' + res.headers['requestId'])
         print(res.json())
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
@@ -47,6 +49,8 @@ class TestLogIN:
     def test_login_success(self):
         data = yaml.safe_load(open('D:/script/fastapp/data/login.yaml'))[0]
         res = LogIn().login(data)
+        print('请求url：' + res.url)
+        print('requestId：' + res.headers['requestId'])
         print(res.json())
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
@@ -60,6 +64,8 @@ class TestLogIN:
     def test_login_fail(self):
         data = yaml.safe_load(open('D:/script/fastapp/data/login.yaml'))[1]
         res = LogIn().login(data)
+        print('请求url：' + res.url)
+        print('requestId：' + res.headers['requestId'])
         print(res.json())
         assert res.status_code == 200
         assert res.json()['retCode'] == 0
